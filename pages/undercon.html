@@ -260,56 +260,72 @@
 <h5 class="text-danger ms-3">Our Project, select below Catrgory..</h5>
     <!-- filter mansory  -->
     <!-- filter mansory  -->
-    <div id="filters" class="toolbar mb2 mt2">
-        <button class="btn fil-cat filter active bg-info" href=""  data-filter="all">All</button>
-        <button class="btn fil-cat filter bg-info" data-rel="web" data-filter=".web">Websites</button>
-        <button class="btn fil-cat filter bg-info" data-rel="flyers" data-filter=".flyers">Application</button> 
-        <button class="btn fil-cat filter bg-info" data-rel="bcards" data-filter=".bcards">Team Support</button>
-      </div> 
-         
-      <div style="clear:both;"></div>     
-      <div id="portfolio"> 
-        <div class="tile scale-anm web" >
-          <img src="../images/web001.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web ">
-          <img src="../images/web005.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web" >
-          <img src="../images/web002.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm flyers">
-          <img src="../images/web004.jpg" alt="" />
-          <!-- <img src="https://picsum.photos/300/172/?random" alt="" /> -->
-        </div>
-        <div class="tile scale-anm flyers">
-          <img src="../images/web003.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm bcards" >
-          <img src="../images/web006.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm bcards" >
-          <img src="../images/web011.jpg" alt="" />  
-        </div>
-          <div class="tile scale-anm bcards" >
-          <img src="../images/web012.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web ">
-          <img src="../images/web007.jpg" alt="" />
-        </div>
-          <div class="tile scale-anm bcards" >
-          <img src="../images/web008.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web" >
-          <img src="../images/web009.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web" >
-          <img src="../images/web010.jpg" alt="" />
-        </div>  
-      </div>
-      
-      <div style="clear:both;"></div>
-      
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <div class="container portfolio-gallery ms-3" >
+    
+      <input type="radio"  id="select-all" name="button">
+      <label for="select-all" class="bg-info text-light pe-3">
+        All
+      </label>
+    
+      <input type="radio" id="animals-item" name="button" >
+      <label for="animals-item" class="bg-info text-light pe-3 ">
+        Web Development  
+      </label>
+    
+      <input type="radio" id="lightning-item" name="button">
+      <label for="lightning-item" class="bg-info text-light pe-3">
+        Application Design
+      </label>
+    
+      <input type="radio" id="desert-item" name="button">
+      <label for="desert-item" class="bg-info text-light pe-3">
+        Team Support
+      </label>
+    
+    <ul class="gallery" >
+      <li class="animals-item">
+        <img src="../images/web001.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="desert-item ms-4 ">
+        <img src="../images/web002.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="lightning-item ms-4">
+        <img src="../images/web003.jpg"style="height: 300px; width: 300px;"  />
+      </li>
+      <li class="desert-item ms-4">
+        <img src="../images/web005.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="animals-item">
+        <img src="../images/web006.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="desert-item ms-4">
+        <img src="../images/web007.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="lightning-item ms-4">
+        <img src="../images/web008.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="animals-item ms-4">
+        <img src="../images/web009.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="lightning-item ">
+        <img src="../images/web010.jpg" style="height: 300px; width: 300px;" />
+      </li>
+      <li class="lightning-item ms-4">
+        <img src="../images/web011.jpg" style="height: 300px; width: 300px;" />
+        
+      </li>
+      <li class="lightning-item ms-4">
+        <img src="../images/web012.jpg" style="height: 300px; width: 300px;" />
+        
+      </li>
+      <li class="lightning-itemv ms-4">
+        <img src="../images/web008.jpg" style="height: 300px; width: 300px;" />
+        
+      </li>
+     
+    </ul>
+    </div>
       
           <!-- filter mansory  END-->
       
@@ -321,43 +337,45 @@
   
 <!-- footer -->
 <div class="row bg-dark" style="height: 400px">
-    <div class="col-4 ps-5 pt-2">
-        <h5 class="text-light">About Us</h5>
-        <p class="text-light">"Created by a dedicated JavaScript developer with a passion for building dynamic and responsive web applications. Focused on delivering clean, efficient code and seamless user experiences. Always exploring new technologies to create innovative and interactive web solutions."</p>
-        <img src="../images/ninja.jpg" class="img-fluid " alt="Responsive image" width="200px" height="100px"><br>
+  <div class="col-4 ps-5 pt-2">
+      <h5 class="text-light">About Us</h5>
+      <p class="text-light">"Created by a dedicated JavaScript developer with a passion for building dynamic and responsive web applications. Focused on delivering clean, efficient code and seamless user experiences. Always exploring new technologies to create innovative and interactive web solutions."</p>
+      <img src="../images/ninja.jpg" class="img-fluid " alt="Responsive image" width="200px" height="100px"><br>
+      
+      <a class="btn btn-outline-secondary ms-5 mt-2" href="contac.html" target="_blank">Learn More</a>
+
         
-        <a class="btn btn-outline-secondary ms-5 mt-2" href="contac.html" target="_blank">Learn More</a>
-          
-    </div>
+  </div>
 
-    <div class="col-4">
-        <img src="../images/logojs.jpg" class="img-fluid ps-5 pt-2" alt="Responsive image" width="300px" height="60px"><br>
-        <p class="text-light pt-3">JavaScript is a powerful, high-level programming language primarily used for creating interactive and dynamic content on websites. It runs on the client-side (in the browser) but can also be used server-side through environments like Node.js. JavaScript enables features such as form validation, animation, data manipulation, and asynchronous programming. It works seamlessly with HTML and CSS, making web pages interactive and responsive. With frameworks like React and Angular, JavaScript has become a cornerstone of modern web development.</p>
-       
-    
-    </div>
-        <div class="col-4 ps-1 pt-2">
-            <h5 class="text-light ps-3">Latest update info</h5>
-                <div class="row mt-3">
-                    <div class="col-2">
-                        <img src="../images/tw.png" class="img-fluid ps-1" alt="Responsive image" width="40px" height="40px"><br>
-                        <img src="../images/tw.png" class="img-fluid ps-1 pt-5" alt="Responsive image" width="40px" height="40px"><br>
-                        <img src="../images/tw.png" class="img-fluid ps-1 pt-5" alt="Responsive image" width="40px" height="40px"><br>
-                        <img src="../images/tw.png" class="img-fluid ps-1 pt-5" alt="Responsive image" width="40px" height="40px"><br>
-                        
-                    </div>
-                    <div class="col-10 pt-2">
-                        <p class="text-light">Lorem ipsum consectetuer adipiscing elit, seddia web design</p>  
-                        <p class="text-light">Lorem ipsum consectetuer adipiscing elit, seddia  web desig</p> 
-                        <p class="text-light mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh  web design</p> 
-                        <p class="text-light mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh web design</p> 
-                        
-                    </div>
-
-
-                </div>
+  <div class="col-4">
+      <img src="../images/logojs.jpg" class="img-fluid ps-5 pt-2" alt="Responsive image" width="300px" height="60px"><br>
+      <p class="text-light pt-3">JavaScript is a powerful, high-level programming language primarily used for creating interactive and dynamic content on websites. It runs on the client-side (in the browser) but can also be used server-side through environments like Node.js. JavaScript enables features such as form validation, animation, data manipulation, and asynchronous programming. It works seamlessly with HTML and CSS, making web pages interactive and responsive. With frameworks like React and Angular, JavaScript has become a cornerstone of modern web development.</p>
+     
+  
+  </div>
+  <div class="col-4 ps-1 pt-2">
+    <h5 class="text-light ps-3">Latest update info</h5>
+        <div class="row mt-3">
+            <div class="col-2">
+                <img src="../images/tw.png" class="img-fluid ps-1" alt="Responsive image" width="40px" height="40px"><br>
+                <img src="../images/tw.png" class="img-fluid ps-1 pt-5" alt="Responsive image" width="40px" height="40px"><br>
+                <img src="../images/tw.png" class="img-fluid ps-1 pt-5" alt="Responsive image" width="40px" height="40px"><br>
+                <img  class="mt-5" src="../images/icon email.png" alt="map" style="height: 40px;width: 40px;">
             </div>
-        </div>
+            <div class="col-10">
+                <p class="text-light">Lorem ipsum consectetuer adipiscing elit, seddia web design</p>  
+                <p class="text-light pt-4">Lorem ipsum consectetuer adipiscing elit, seddia  web desig</p> 
+                <p class="text-light pt-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh  web design</p> <br>
+                <p class="text-light ">email admin-1   : arroy_company@gmail.com</p> 
+                <p class="text-light">email admin-2   : arroy_pangeran@gmail.com</p> 
+                  </div>
+
+
+              </div>
+          </div>
+      </div>
+
+
 
 
               

@@ -1,3 +1,72 @@
+
+
+/* css mastory  */
+.portfolio-gallery {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-gallery body {
+  background: #F2F5E9;
+  font-family: 'Raleway', sans-serif;
+}
+
+.portfolio-gallery .container {
+  width: 70%;
+  overflow: hidden;
+  height: 100%;
+  margin: 5% auto;
+}
+
+.portfolio-gallery ul {
+  list-style-type: none;
+}
+
+.portfolio-gallery h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.portfolio-gallery input {
+  display: none;
+  position: relative;
+  left: 20px;
+}
+
+.portfolio-gallery label {
+  cursor: pointer;
+  color: #888;
+  display: inline-block;
+  padding: 0 0 0 20px;
+}
+
+.portfolio-gallery .gallery {
+  display: block;
+  width: 100%;
+  margin: 5% auto;
+}
+
+.portfolio-gallery .gallery li {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  transition: all .3s linear;
+}
+
+.portfolio-gallery input#animals-item:checked ~ .gallery li:not(.animals-item),
+.portfolio-gallery input#lightning-item:checked ~ .gallery li:not(.lightning-item),
+.portfolio-gallery input#desert-item:checked ~ .gallery li:not(.desert-item) {
+  opacity: .1;
+}
+
+/* css mastory  END */
+
+
+
 .btn-small {
     font-size: 14px; /* Ukuran teks lebih kecil */
     padding: 5px 15px; /* Mengurangi padding tombol */

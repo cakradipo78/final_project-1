@@ -1,5 +1,7 @@
 
 /* CSS yang hanya berlaku untuk elemen di dalam .portfolio-gallery */
+
+/* css mastory  */
 .portfolio-gallery {
   margin: 0;
   padding: 0;
@@ -62,7 +64,7 @@
   opacity: .1;
 }
 
-
+/* css mastory  END */
 /* ##################  */
 
 
