@@ -15,7 +15,7 @@ jQuery('#portfolio').mixItUp({
 
 
   document.getElementById("nama-saya").innerHTML = "Ari Heryawan."
-  document.getElementById("nama-saya2").innerHTML = "Ari Heryawan."
+
   
   // JS todo ###############
 function displayTodo() {
@@ -132,3 +132,5 @@ function deleteTodo (id) {
 }
 
 // js todo end ######### 
+
+// mansory2 ?

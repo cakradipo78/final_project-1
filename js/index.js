@@ -73,6 +73,12 @@ jQuery('#portfolio').mixItUp({
       }
   
   });
+
+
+
+
+
+  
 // js untuk mansory END
 
 // js logo slider 

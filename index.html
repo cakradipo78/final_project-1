@@ -362,56 +362,73 @@
 <h5 class="text-light ms-2 mt-2">Our Project, please select by category</h5>
     <!-- filter mansory  -->
     <!-- filter mansory  -->
-    <div id="filters" class="toolbar mb2 mt2 ms-2">
-        <button class="btn fil-cat filter active bg-light" href=""  data-filter="all">All</button>
-        <button class="btn fil-cat filter bg-light" data-rel="web" data-filter=".web">Websites</button>
-        <button class="btn fil-cat filter bg-light" data-rel="flyers" data-filter=".flyers">Application</button> 
-        <button class="btn fil-cat filter bg-light" data-rel="bcards" data-filter=".bcards">Team Support</button>
-      </div> 
-         
-      <div style="clear:both;"></div>     
-      <div id="portfolio"> 
-        <div class="tile scale-anm web" >
-          <img src="./images/web001.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web ">
-          <img src="./images/web005.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web" >
-          <img src="./images/web002.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm flyers">
-          <img src="./images/web004.jpg" alt="" />
-          <!-- <img src="https://picsum.photos/300/172/?random" alt="" /> -->
-        </div>
-        <div class="tile scale-anm flyers">
-          <img src="./images/web003.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm bcards" >
-          <img src="./images/web006.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm bcards" >
-          <img src="./images/web011.jpg" alt="" />  
-        </div>
-          <div class="tile scale-anm bcards" >
-          <img src="./images/web012.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web ">
-          <img src="./images/web007.jpg" alt="" />
-        </div>
-          <div class="tile scale-anm bcards" >
-          <img src="./images/web008.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web" >
-          <img src="./images/web009.jpg" alt="" />
-        </div>
-        <div class="tile scale-anm web" >
-          <img src="./images/web010.jpg" alt="" />
-        </div>  
-      </div>
-      
-      <div style="clear:both;"></div>
-      
+    
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<div class="container portfolio-gallery" >
+<h2>css Portfolio Gallery</h2>
+  <input type="radio"  id="select-all" name="button">
+  <label for="select-all" class="bg-info text-light">
+    All
+  </label>
+
+  <input type="radio" id="animals-item" name="button" >
+  <label for="animals-item" class="bg-info text-light ">
+    Web Development  
+  </label>
+
+  <input type="radio" id="lightning-item" name="button">
+  <label for="lightning-item" class="bg-info text-light">
+    Application Design
+  </label>
+
+  <input type="radio" id="desert-item" name="button">
+  <label for="desert-item" class="bg-info text-light">
+    Team Support
+  </label>
+
+<ul class="gallery" >
+  <li class="animals-item">
+    <img src="./images/web001.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="desert-item ms-4 ">
+    <img src="./images/web002.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="lightning-item ms-4">
+    <img src="./images/web003.jpg"style="height: 300px; width: 300px;"  />
+  </li>
+  <li class="desert-item ms-4">
+    <img src="./images/web005.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="animals-item">
+    <img src="./images/web006.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="desert-item ms-4">
+    <img src="./images/web007.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="lightning-item ms-4">
+    <img src="./images/web008.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="animals-item ms-4">
+    <img src="./images/web009.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="lightning-item ">
+    <img src="./images/web010.jpg" style="height: 300px; width: 300px;" />
+  </li>
+  <li class="lightning-item ms-4">
+    <img src="./images/web011.jpg" style="height: 300px; width: 300px;" />
+    
+  </li>
+  <li class="lightning-item ms-4">
+    <img src="./images/web012.jpg" style="height: 300px; width: 300px;" />
+    
+  </li>
+  <li class="lightning-itemv ms-4">
+    <img src="./images/web008.jpg" style="height: 300px; width: 300px;" />
+    
+  </li>
+ 
+</ul>
+</div>
       
           <!-- filter mansory  END-->
 
