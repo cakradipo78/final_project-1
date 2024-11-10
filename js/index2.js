@@ -16,6 +16,7 @@ jQuery('#portfolio').mixItUp({
 
   document.getElementById("nama-saya").innerHTML = "Ari Heryawan."
   document.getElementById("nama-saya2").innerHTML = "Ari Heryawan."
+  
   // JS todo ###############
 function displayTodo() {
   let dataLocalStorage = localStorage.getItem("todos")
@@ -54,7 +55,7 @@ function displayTodo() {
   }
 
   // console.log(listTodo);
-
+document.getElementById("kode-promo").innerHTML = "Kode Promo : arroy"
   document.getElementById("list-todo").innerHTML = listTodo
 
 }

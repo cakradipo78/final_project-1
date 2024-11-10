@@ -56,7 +56,7 @@ const monthsOfYearID = [
 // let day = today.getDate().toString().padStart(2, '0');
 document.getElementById("tanggal").innerHTML = day
 document.getElementById("bulan").innerHTML = month
-document.getElementById("nama-saya").innerHTML = "Ari Heryawan."
+
 
 
 jQuery('#portfolio').mixItUp({  
